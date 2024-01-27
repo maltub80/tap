@@ -1,0 +1,165 @@
+@font-face {
+    font-family: poppins;
+    src: url(../src/Poppins-Regular.ttf);
+  }
+
+  body {
+    font-family: poppins;
+  }
+
+  main {
+    display: grid;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  header {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-bottom: 100px;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: 10px;
+    color: #000000;
+  }
+
+  nav ul li:hover {
+    color: rgb(170, 170, 72);
+    cursor: pointer;
+  }
+
+  .left_section {
+    float: left;
+    width: 60%;
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+
+  .orange {
+    color: #D1884F;
+  }
+
+  aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: 10px;
+    float: right;
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .profile_image {
+    border-bottom-left-radius: 100px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .holder {
+    border-left-width: 60%;
+    border-bottom-left-radius: 105px;
+    border-left: 15px solid #58b9d3;
+    height: 235px;
+    width: 250px;
+    position: relative;
+    margin: 10px;
+    left: 10px;
+    background-color: #008AAA;
+  }
+
+  .mask {
+    position: absolute;
+    top: -15px;
+    left: 1px;
+  }
+
+  #welcome {
+    color: #3BBADB;
+  }
+
+  h1 {
+    color: #3BBADB;
+  }
+
+  button {
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 10px;
+  }
+
+  .button1 {
+    background-color: #028AA9;
+    color: white;
+    border: none;
+  }
+
+  .button2 {
+    background-color: white;
+    color: #50ACC2;
+    border: solid #50ACC2 3px;
+  }
+
+  @media only screen and (max-width: 620px) {
+
+    /* For mobile phones: */
+    nav {
+      margin-bottom: 10px;
+    }
+
+    main {
+      width: 100%;
+      display: block;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .left_section {
+      width: 95%;
+      padding: 5px;
+      margin: 10px;
+      display: block;
+      float: none;
+      background-color: rgb(238, 238, 255);
+      /*grid-column: 1;*/
+    }
+    .holder {
+      position: relative;
+      width: 100%;
+      margin-left: 5px;
+      margin-right: 15px;
+      height: 135px;
+      left: -15px;
+      top: 10px;
+    }
+
+    .mask {
+    position: absolute;
+    top: -35px;
+    left: 1px;
+  }
+    
+    .profile_image {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      top: 25px;
+    }
+
+  }

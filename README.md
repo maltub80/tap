@@ -1,4 +1,4 @@
 Tap coding test
 
 Name: Malek Tubaishat
-emal: maltub80@gmail.com
+email: maltub80@gmail.com
